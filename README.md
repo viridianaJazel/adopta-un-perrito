@@ -7,4 +7,4 @@ Corre el comando  `ng serve`
 Ve a la ruta `http://localhost:4200/`
 
 
-Este proyecto se creo para el articulo "Crear una single-page app en Angular 2"
+Este proyecto se creo para el articulo "Crear una single-page app en Angular 2" de la comunidad de Tech Women Community(https://www.techwomen.org.mx/) 
