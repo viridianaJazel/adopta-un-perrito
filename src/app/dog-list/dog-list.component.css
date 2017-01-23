@@ -1,0 +1,39 @@
+.portfolio{
+  margin-top: 50px;
+}
+.portfolio .title{
+  font-size: 24px;
+}
+.portfolio .title .title-color{
+  color: #00BCCC;
+  font-weight: bolder;
+  font-size: 32px;
+}
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 20px;
+}
+
+.portfolio-box img{
+  width: 100%;
+  height: 400px;
+}
+    
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  background-color: rgba(0, 188, 204, 0.75);
+  width: 100%;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  z-index: 99;
+  color: #fff;
+}
+
+.portfolio-box .portfolio-box-caption .description{
+  color: #ededed;
+  font-size: 14px;
+}

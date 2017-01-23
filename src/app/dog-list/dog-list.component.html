@@ -1,0 +1,30 @@
+<section class="no-padding portfolio">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="title col-md-2 col-sm-12">
+        <div>PERRITOS EN</div>
+        <div class="title-color">ADOPCION</div>
+      </div>
+
+      <div class="title col-md-10 col-sm-12">       
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-4" *ngFor="let dog of dogs">
+            <a href class="portfolio-box">
+              <img src="{{dog.picture}}" class="img-responsive" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="title">
+                    {{dog.name}} - {{dog.age}}
+                  </div>
+                  <div class="description">
+                    {{dog.description}}
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

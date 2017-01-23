@@ -1,0 +1,33 @@
+header {
+  background-image: url('../assets/images/hero-background.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  min-height: 700px;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 200px 150px 100px;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+header .header-content .header-content-inner hr {
+  border-color: #00BCCC;
+  border-width: 5px;
+  max-width: 50px;
+}
+
+header .header-content .header-content-inner p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+}
+
